@@ -1,0 +1,34 @@
+.wrapper {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    height:450%;
+    text-align: center;
+    background-color:  #8faff2;
+}
+
+.wrapper .row:after {
+    visibility: hidden;
+    display: inline-flex;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.block{
+  display: inline-block;
+  border: solid 2px aquamarine;
+  background-color: #6feeb7;
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  padding: 4px;
+  border-radius: 50%;
+  color: antiquewhite;
+  font-family: sans-serif;
+}
+
+.least{
+  background-color: #8faff2;
+}
