@@ -4,7 +4,8 @@
     width: 100%;
     height:450%;
     text-align: center;
-    background-color:  #8faff2;
+    background-color:  #EFEBF2;
+    border-radius: 1%;
 }
 
 .wrapper .row:after {
@@ -18,17 +19,19 @@
 
 .block{
   display: inline-block;
-  border: solid 2px aquamarine;
-  background-color: #6feeb7;
+  border: solid 1px #A5B2B5;
+  background-color: #C3CBD0;
   width: 75px;
   height: 75px;
   margin: 5px;
   padding: 4px;
-  border-radius: 50%;
-  color: antiquewhite;
-  font-family: sans-serif;
+
+  line-height: 75px;
+  color: #798395;
+  font-family: serif;
 }
 
 .least{
-  background-color: #8faff2;
+  background-color: #EFEBE8;
+  color: #848D9E;
 }
