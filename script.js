@@ -8,9 +8,9 @@ function getRandomValue(){
 //assign values to each sphere
 function valueAssignment(){
   for(var i = 0; i <pyramid.length;i++){
-    var value = getRandomValue()*1000
+    var value = getRandomValue()
     pyramid[i].setAttribute("value", value)
-    pyramid[i].innerText = value.toString().substring(0, 3).replace(/\./g, "");
+    pyramid[i].innerText = value.toString().substring(0, 5)
   }
 }
 

@@ -19,13 +19,13 @@
 
 .block{
   display: inline-block;
-  border: solid 1px #A5B2B5;
+  border: solid 1px #A5B2C5;
   background-color: #C3CBD0;
   width: 75px;
   height: 75px;
   margin: 5px;
   padding: 4px;
-
+  border-radius: 2px;
   line-height: 75px;
   color: #798395;
   font-family: serif;
